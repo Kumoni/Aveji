@@ -1,0 +1,536 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+* {
+    text-decoration: none;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+        Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.burger {
+    display: none;
+}
+
+header {
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 40px;
+}
+
+body {
+    align-content: center;
+}
+
+.header1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.center-txt a {
+    display: flex;
+    margin-left: 600px;
+    color: black;
+    font-size: 24px;
+}
+
+.screen1 {
+    margin-top: 150px;
+}
+
+.sc1-bg-txt {
+    display: flex;
+    justify-content: center;
+
+    font-size: 96px;
+    gap: 700px;
+}
+
+.sc1-bg-txt a {
+    font-size: 40px;
+    color: black;
+    text-decoration: underline;
+    margin-top: 340px;
+}
+
+.sc1-sm-txt {
+    display: flex;
+    justify-content: center;
+    font-size: 24px;
+    margin-left: -1250px;
+    margin-top: 40px;
+}
+
+.img1 {
+    display: flex;
+    justify-content: center;
+    margin-left: -1300px;
+    margin-top: 50px;
+}
+
+.img2 {
+    display: flex;
+    justify-content: center;
+    margin-left: 850px;
+    margin-top: -800px;
+}
+
+.screen2 {
+    margin-top: 20em;
+}
+
+.screen2-main {
+    display: flex;
+    justify-content: center;
+    gap: 40em;
+}
+
+.sc2-bg-txt {
+    font-size: 64px;
+    font-weight: 500;
+}
+
+.sc2-sm-text-1 {
+    font-size: 20px;
+}
+
+.sc2-sm-text-2 {
+    font-size: 20px;
+    margin-top: 2em;
+}
+
+.sc2-sm-text-3 {
+    font-size: 20px;
+    margin-top: 2em;
+}
+
+.sc2-dop-txt-bg {
+    margin-top: 2em;
+    font-size: 40px;
+}
+
+.sc2-dop-txt-sm {
+    margin-top: 1em;
+    font-size: 23px;
+}
+
+.screen3 {
+    margin-top: 150px;
+    display: flex;
+    gap: 700px;
+}
+
+.ts-big-txt {
+    font-size: 48px;
+    margin-left: 1em;
+}
+
+.ts-div2-sml-txt {
+    width: 325px;
+}
+
+.divs {
+    display: flex;
+    margin-top: 50px;
+    border-bottom: solid;
+    border-width: 1px;
+    padding-bottom: 20px;
+}
+
+.big-txt {
+    font-size: 36px;
+    width: 328px;
+}
+
+.txt {
+    width: 329px;
+}
+
+.screen4 {
+    margin-top: 150px;
+}
+
+.screen4 p {
+    font-size: 48px;
+    margin-left: 1em;
+}
+
+.project-imgs img{
+    width: 590px;
+    height: 700px;
+}
+
+.stroke1 {
+    padding-top: 60px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.stroke2 {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 20px;
+    padding-top: 20px;
+}
+
+.screen5 p {
+    margin-left: 1em;
+    font-size: 50px;
+}
+
+.reviews {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px;
+}
+
+.message1 {
+    width: 580px;
+    height: 350px;
+    border-style: solid;
+}
+
+.message2 {
+    width: 580px;
+    height: 350px;
+    border-style: solid;
+}
+
+.message3 {
+    width: 580px;
+    height: 350px;
+    border-style: solid;
+    border-radius: 1px;
+}
+
+.screen5 {
+    margin-top: 200px;
+}
+
+.icon {
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+}
+
+.name p {
+    font-size: 30px;
+    text-align: center;
+    padding-top: 50px;
+    font-weight: 600;
+}
+
+.sc5-main-txt p {
+    font-size: 16px;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.screen6 {
+    display: flex;
+    gap: 500px;
+    margin-top: 200px;
+}
+
+.screen6 img {
+    margin-left: 50px;
+}
+
+.ss-big-txt {
+    font-size: 48px;
+    margin-bottom: 50px;
+}
+
+.ss-small-txt {
+    margin-top: 75px;
+}
+
+.inputs {
+    display: flex;
+    margin-top: 70px;
+    flex-direction: column;
+}
+
+.inputs>input {
+    border: none;
+    border-bottom: solid;
+    border-width: 1px;
+    height: 45px;
+}
+
+.send {
+    align-items: center;
+    text-align: center;
+    color: white;
+    background-color: black;
+    text-decoration: none;
+    width: 176px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.sc6img-1{
+    display: flex;
+    position: absolute;
+    top: 7200px;
+    left: 1060px;
+}
+
+.sc6img-2{
+    display: flex;
+    position: absolute;
+    top: 7200px;
+    left: 1186px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 150px;
+    font-size: 18px;
+    margin-bottom: 10px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.smaller {
+    font-size: 16px;
+    padding-top: 20px;
+}
+
+.contacts>a {
+    color: black;
+    text-decoration: none;
+}
+
+.move {
+    margin-right: 50px;
+}
+
+@media screen and (max-width: 375px) {
+    
+    * {
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+    .burgermenu{
+        padding-right: 10px;
+    }
+
+    br{
+        display: none !important;
+    }
+
+    .img1{
+        display: none;
+    }
+
+    header {
+        margin: 20px 15px;
+        display: flex !important;
+        justify-content: center;
+        flex-direction: row;
+    }
+
+    .logo-left img {
+        width: 39px !important;
+        height: 41px !important;
+    }
+
+    .header1 {
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .center-txt a {
+        margin-left: 0;
+        font-size: 18px;
+        display: none;
+    }
+
+    .logo-left {
+        display: flex;
+        gap:280px;
+    }
+
+    .left-txt{
+        display: none;
+    }
+
+    .screen1 > .sc1-bg-txt > p {
+        font-size: 28px;
+    }
+
+    .screen2{
+        margin-top: 120px;
+        margin-bottom: 20px;
+    }
+
+    .sc2-sm-text-1 p{
+        margin-left: 10px;
+    }
+
+    .sc2-sm-text-2 p{
+        margin-left: 10px;
+    }
+
+    .sc2-sm-text-3 p{
+        margin-left: 10px;
+    }
+
+    .sc5-main-txt{
+        padding-right: 15px;
+    }
+
+    .name{
+        padding-right: 22px;
+    }
+
+    .screen1 {
+        margin-top: 50px;
+    }
+
+    .sc1-bg-txt {
+        flex-direction: column;
+        font-size: 48px;
+        gap: 20px;
+        text-align: center;
+        text-align: start;
+    }
+
+    .sc1-bg-txt a {
+        font-size: 24px;
+        margin-top: 20px;
+    }
+
+    .sc1-sm-txt {
+        margin-left: 0;
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .img1, .img2 {
+        margin: 20px 0;
+    }
+
+    .img1 img, .img2 img {
+        width: 100%;
+        height: auto;
+    }
+
+    .screen2-main {
+        flex-direction: column;
+        gap: 2em;
+    }
+
+    .sc2-bg-txt {
+        font-size: 36px;
+        text-align: center;
+    }
+
+    .screen3 {
+        flex-direction: column;
+        gap: 2em;
+    }
+
+    .ts-big-txt {
+        font-size: 36px;
+        text-align: center;
+        margin-left: 0;
+        margin-left:10px;
+    }
+
+    .txt{
+        padding-top: 25px;
+    }
+
+    .stroke2{
+        display:none;
+    }
+
+    .none {
+        display: none;
+    }
+
+    .ts-div2-sml-txt{
+        margin-left:8px;
+        text-align: center;
+    }
+
+    .divs {
+        flex-direction: column;
+    }
+
+    .big-txt, .txt {
+        width: 100%;
+    }
+
+    .project-imgs img {
+        width: 100%;
+        height: auto;
+    }
+
+    .stroke1, .stroke2 {
+        flex-direction: column;
+    }
+
+    .reviews {
+        flex-direction: column;
+    }
+
+    .message1, .message2, .message3 {
+        width: 90%;
+        margin: 10px auto;
+        height: 27em;
+    }
+
+    .screen6 {
+        flex-direction: column;
+        gap: 2em;
+    }
+
+    .screen6 img {
+        width: 100%;
+        height: auto;
+        margin-left: 0;
+    }
+
+    .inputs > input {
+        width: 90%;
+        margin: 10px auto;
+    }
+
+    .send {
+        width: 90%;
+        margin: 20px auto;
+    }
+
+    .sc6img-1, .sc6img-2 {
+        position: static;
+        margin: 10px auto;
+    }
+
+    footer {
+        flex-direction: column;
+        text-align: center;
+        margin: 20px 15px;
+    }
+
+    .contacts {
+        margin-top: 20px;
+    }
+
+    .move {
+        margin-right: 0;
+        display: block;
+        margin-bottom: 10px;
+    }
+}
